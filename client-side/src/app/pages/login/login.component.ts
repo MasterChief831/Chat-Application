@@ -10,7 +10,7 @@ import { AuthService } from 'src/app/services/auth.service';
   providers:[
     AuthService
   ],
-  standalone: true
+   
 })
 export class LoginComponent {
      constructor(private supabase:AuthService){}

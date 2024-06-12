@@ -10,12 +10,13 @@ import { LoginComponent } from './pages/login/login.component';
   declarations: [
     AppComponent,
     ChatComponent,
+    LoginComponent
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-  ],
+    AppRoutingModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
